@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'>
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <h1>JOGO DA VELHA</h1>
+    <div class="stage">
+<div>
+    <div id="0" class="square"> </div>
+    <div id="1" class="square"> </div>
+    <div id="2" class="square"></div>
+  
+<div>
+    <div id="3" class="square"></div>
+    <div id="4" class="square"></div>
+    <div id="5" class="square"></div>
+</div>
+<div>
+    <div id="6" class="square"></div>
+    <div id="7" class="square"></div>
+    <div id="8" class="square"></div>
+</div>
+
+    </div>
+
+    <button type="submit" onclick="refreshPage()" id="botão1"><strong>RESTART</strong></button>
+
+    <fieldset>
+		<legend> Acompanhe Aqui </legend>
+    <table class="result">
+    </br>
+        <tr>
+            <td>Player O: </td>
+            <td class="score">0</td>
+        </tr>
+        <tr>
+            <td>Player X: </td>
+            <td class="score">0</td>
+        </tr>
+        <tr>
+            <td>Empate: </td>
+            <td class="score">0</td>
+        </tr>
+    </table>
+    </fieldset>
+		
+		
+    <script src="interface.js"></script>
+    <script src="regras.js"></script>  
+
+</body>
+</html>
